@@ -21,15 +21,15 @@
 
 ## Rationale 2
 
-{{one more, the-structure-should-be-the-same-as-previous}}
+{{one more, use-the-same-template-structure-as-before}}
 
 ## Rationale 3
 
-{{at least three, the-structure-should-be-the-same-as-previous}}
+{{at least three, use-the-same-template-structure-as-before}}
 
 ## Rationale N
 
-{{more if desired, the-structure-should-be-the-same-as-previous}}
+{{more if desired, use-the-same-template-structure-as-before}}
 
 # Loyalty program
 
@@ -46,12 +46,12 @@
 
 ## Rationale 2
 
-{{one more, the-structure-should-be-the-same-as-previous}}
+{{one more, use-the-same-template-structure-as-before}}
 
 ## Rationale 3
 
-{{at least three, the-structure-should-be-the-same-as-previous}}
+{{at least three, use-the-same-template-structure-as-before}}
 
 ## Rationale N
 
-{{more if desired, the-structure-should-be-the-same-as-previous}}
+{{more if desired, use-the-same-template-structure-as-before}}
