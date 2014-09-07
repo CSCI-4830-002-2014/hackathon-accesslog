@@ -21,15 +21,15 @@
 
 ## Rationale 2
 
-{{one more, the-content-should-be-the-same-as-previous}}
+{{one more, the-structure-should-be-the-same-as-previous}}
 
 ## Rationale 3
 
-{{at least three, the-content-should-be-the-same-as-previous}}
+{{at least three, the-structure-should-be-the-same-as-previous}}
 
 ## Rationale N
 
-{{more if desired, the-content-should-be-the-same-as-previous}}
+{{more if desired, the-structure-should-be-the-same-as-previous}}
 
 # Loyalty program
 
@@ -46,12 +46,12 @@
 
 ## Rationale 2
 
-{{one more, the-content-should-be-the-same-as-previous}}
+{{one more, the-structure-should-be-the-same-as-previous}}
 
 ## Rationale 3
 
-{{at least three, the-content-should-be-the-same-as-previous}}
+{{at least three, the-structure-should-be-the-same-as-previous}}
 
 ## Rationale N
 
-{{more if desired, the-content-should-be-the-same-as-previous}}
+{{more if desired, the-structure-should-be-the-same-as-previous}}
