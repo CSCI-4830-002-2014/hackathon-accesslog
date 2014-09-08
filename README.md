@@ -1,10 +1,10 @@
 # Team Members
 
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
+* [Josh Ferge](https://github.com/JoshFerge)
+* [Irfan Nadiadi](https://github.com/Irfann1)
+* [Justin McBride](https://github.com/dare599z)
+* [Manpreet Singh](https://github.com/msg425)
+* [LoganBates](https://github.com/LoganBates)
 
 # Promotional campaign
 
