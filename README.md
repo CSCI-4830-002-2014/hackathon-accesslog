@@ -1,10 +1,10 @@
 # Team Members
 
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
+* [Alexia Newgord](https://github.com/alne4294)
+* [Austin Wood](https://github.com/indiesquidge)
+* [Ian K.](https://github.com/ianks)
+* [Daniel Nolan](https://github.com/dano8957)
+* [Alex Tsankov](https://github.com/antsankov)
 
 # Promotional campaign
 
