@@ -4,12 +4,12 @@
 * [Chris Wittenberg](https://github.com/cwitty1919t)
 * [name-of-a-team-member](URL to this member's github account)
 * [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
+
 
 # Promotional campaign
 
 ## Description
-{{an-one-paragraph-description}}
+{{The goal of this promotional campaign is to target the product with the lowest purchases per view and offer a discount in order to drive sales.}}
 
 ## Rationale 1
 
