@@ -20,6 +20,7 @@ Our promotional campagin will be based on graphing different actions over time f
 
 ## Rationale 2
 
+TEST
 {{one more, use-the-same-template-structure-as-before}}
 
 ## Rationale 3
