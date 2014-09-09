@@ -1,6 +1,6 @@
 # Team Members
 
-* [name-of-a-team-member](URL to this member's github account)
+* [Ryan Roden](www.github.com/rodenr)
 * [name-of-a-team-member](URL to this member's github account)
 * [name-of-a-team-member](URL to this member's github account)
 * [name-of-a-team-member](URL to this member's github account)
