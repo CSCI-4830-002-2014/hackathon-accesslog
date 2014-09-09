@@ -26,7 +26,7 @@ Some of the data point that we might pay attention to are:
 ## Rationale 2
 
 ```
-{{splunk query producing the table or graph below}}
+sourcetype=access_* productId=* action="purchase" | timechart count by categoryId limit=16 useother=false
 ```
 Strategy games are wildly popular in our stores, let's focus more resources on that.
 
