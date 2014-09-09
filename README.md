@@ -26,10 +26,21 @@ Our promotional campagin will be based on graphing different actions over time f
 
 {{at least three, use-the-same-template-structure-as-before}}
 
-## Rationale N
+## Rationale 4
 
-{{more if desired, use-the-same-template-structure-as-before}}
+```
+{{splunk query producing the table or graph below}}
+```
+![screenshot of a data table or a graph or both](image.png?raw=true) 
+{{write-an-one-sentence-caption}}
 
+## Rationale 5
+
+```
+sourcetype=access_* | top productId by date_wday limit=1
+```
+![Rationale 5](http://imgur.com/aNiNyLz.png) 
+This shows the top product of each given day of the week.
 # Loyalty program
 
 ## Description
