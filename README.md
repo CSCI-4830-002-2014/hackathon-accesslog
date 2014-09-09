@@ -37,7 +37,7 @@ We compared these charts to verify that the game we're analyzing was the correct
 We wanted to see if the other game that sufferd this midweek slum (Orvil) had any correlation to our game we were analyzing, perhaps as a way to package these products together to increase sales.
 ```
 sourcetype=access_* productId=* productName="Orvil the Wolverine" OR productName="Fire Resistance Suit of Provolone"| timechart count(eval(action="purchase")) by productName span=1h useother=f
-``
+```
 ![screenshot of a data table or a graph or both](Hack4.png?raw=true)
 We can see that these games suffer on the same days! :(
 
