@@ -1,7 +1,7 @@
 # Team Members
 
 * [Ryan Roden](www.github.com/rodenr)
-* [Chris Wittenberg](https://github.com/cwitty1919t)
+* [Chris Wittenberg](https://github.com/cwitty1919)
 * [name-of-a-team-member](URL to this member's github account)
 * [name-of-a-team-member](URL to this member's github account)
 * [name-of-a-team-member](URL to this member's github account)
@@ -39,7 +39,7 @@
 ## Rationale 1
 
 ```
-{{splunk query producing the table or graph below}}
+sourcetype=access_* | timechart count(eval(action="purchase")) As "Purchases" by clientip useother=f
 ```
 ![screenshot of a data table or a graph or both](image.png?raw=true) 
 {{write-an-one-sentence-caption}}
