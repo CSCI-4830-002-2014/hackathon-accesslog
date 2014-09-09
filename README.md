@@ -8,7 +8,7 @@
 # Promotional campaign
 
 ## Description
-{{The goal of this promotional campaign is to target the product with the lowest purchases per view and offer a discount in order to drive sales.}}
+The goal of this promotional campaign is to target the product with the lowest purchases per view and offer a discount in order to drive sales.
 
 ## Rationale 1
 
