@@ -20,8 +20,8 @@ Some of the data point that we might pay attention to are:
 ```
 {{sourcetype=access_* action = "purchase" OR "addtocart" | timechart count(action) by productId useother=f usenull=f limit=16}}
 ```
-![Rational 1](http://i.imgur.com/7gY7AHb.png)
-This shows products that are added to the cart and actually pruchased, which can show us broad interest in a product.
+[Imgur](http://i.imgur.com/7gY7AHb.png)
+{{This shows products that are added to the cart and actually pruchased, which can show us broad interest in a product}}
 
 ## Rationale 2
 
@@ -36,10 +36,10 @@ Strategy games are wildly popular in our stores, let's focus more resources on t
 ## Rationale 3
 
 ```
-{{splunk query producing the table or graph below}}
+sourcetype=access_* categoryId=STRATEGY | timechart count by productId usenull=f
 ```
-![screenshot of a data table or a graph or both](image.png?raw=true) 
-{{write-an-one-sentence-caption}}
+[Imgur](http://i.imgur.com/qEG7bye.png)
+{{The graph clearly indicates that out of the puppies vs zombies game is typically the least popular of all the strategy games offered.}}
 
 ## Rationale N
 
