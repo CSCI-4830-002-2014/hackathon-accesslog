@@ -59,10 +59,10 @@ This shows the top product of each given day of the week.
 ## Rationale 1
 
 ```
-{{splunk query producing the table or graph below}}
+sourcetype=access_* action=purchase categoryId=STRATEGY productId!=pz_sg_g05 | chart count by clientip
 ```
-![screenshot of a data table or a graph or both](image.png?raw=true) 
-{{write-an-one-sentence-caption}}
+![Imgur](http://i.imgur.com/etdU50u.png)
+We may want to specifically talk to these clients who enjoy strategy games but have not explored our less popular strategy "Puppies vs Zombies" game.
 
 ## Rationale 2
 
@@ -70,15 +70,7 @@ This shows the top product of each given day of the week.
 
 ## Rationale 3
 
-```
-sourcetype=access_* action=purchase clientip=128.241.220.82 | stats count(action) by categoryId
-```
-
-Our top customer has bought almost 40 games, yet rarely buys accessories. Since he is such a
-big gamer, he most likely associates with other gamers. For being a loyal customer, we will
-send him some swag (t-shirt, hat, etc) which he can wear, and as a result we recieve brand recogition.
-
-![image](https://www.dropbox.com/s/b9bm353n6dlzffq/Screenshot%202014-09-08%2018.51.30.png?dl=1)
+{{at least three, use-the-same-template-structure-as-before}}
 
 ## Rationale 4
 
