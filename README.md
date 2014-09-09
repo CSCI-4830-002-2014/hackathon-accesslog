@@ -9,8 +9,7 @@
 # Promotional campaign
 
 ## Description
-We want to make a campaign for a product whose sales go down during a certain span of days. We will choose the product which we believe most suffers during those certain days and plan a promotion for those days. We will futher ananlyze this game to make our promotion more effective. 
-
+We want to make a campaign for a product whose sales go down during a certain span of days. We will choose the product which we believe most suffers during those certain days and plan a promotion for those days. We will offer a percent discount during these days for the game that suffers to increase sales.
 
 ## Rationale 1
 We wanted to see which product sales go down during which days during the week. We will use this query to choose which product to create a promotion for. We decided to use Resistance Suit of Provolone because it suffers from severve midweek slump.
@@ -47,20 +46,15 @@ We can see that these games suffer on the same days! :(
 For loyal customer who purchase 25 games, they are automatically entered into our loyalty program. Many of the customers on the website are purchasing 20 - 80 games and as a reward for loyalty, we would like to reward those customers with 5% off on all future purchases. Further queries show that many customers purchase multiple copies of the same game, likely to gift to friends. To encourage more purchases, we will offer a significant discount if a customer is gifting a game they already own.
 
 ## Rationale 1
-
+This graph shows that some customers bought multiple copies of the same game. This is often done because they are purchasing licenses to share with their friends or even strangers and we can use this assumption for our program.
 ```
-{{splunk query producing the table or graph below}}
+sourcetype=access_* action=purchase productName="Fire Resistance Suit of Provolone"| stats count by clientip
 ```
-![screenshot of a data table or a graph or both](image.png?raw=true) 
-{{write-an-one-sentence-caption}}
-
+![screenshot of a data table or a graph or both](Hack2Loyal.png?raw=true) 
+Several games purchased by the same customer.
 ## Rationale 2
 
-{{one more, use-the-same-template-structure-as-before}}
-
-## Rationale 3
-
-This tells us how many games each person purchased. This way we can set a number for the bottom tier of games purchased for the loyalty program.
+This tells us how many individual games each person purchased. This way we can set a number for the bottom tier of games purchased for the loyalty program.
 ```
 sourcetype=access_* action=purchase | stats count by clientip | rename clientip as Customer | rename count as "Number Purchased"
 ```
