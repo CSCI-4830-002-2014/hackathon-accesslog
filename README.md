@@ -74,7 +74,11 @@ This shows the top product of each given day of the week.
 
 ## Rationale 4
 
-{{more if desired, use-the-same-template-structure-as-before}}
+```
+sourcetype=access_* | timechart c(action) by clientip usenull=f useother=f
+```
+![Rationale 4](http://imgur.com/qN6pT1E.png) 
+This shows the top transactions by clientIp. We can use this to quickly find the top clients for a given day. 
 
 ## Rationale 5
 
