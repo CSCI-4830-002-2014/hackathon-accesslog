@@ -34,7 +34,7 @@
 # Loyalty program
 
 ## Description
-{{an-one-paragraph-description}}
+{{High-Buyers: We find our highest-buying customers and offer a discount with our product with the least purchases per view}}
 
 ## Rationale 1
 
@@ -42,7 +42,7 @@
 sourcetype=access_* | timechart count(eval(action="purchase")) As "Purchases" by clientip useother=f
 ```
 ![screenshot of a data table or a graph or both](image.png?raw=true) 
-{{write-an-one-sentence-caption}}
+{{Find the highest buying customers}}
 
 ## Rationale 2
 
