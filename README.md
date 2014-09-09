@@ -20,8 +20,8 @@ Some of the data point that we might pay attention to are:
 ```
 {{sourcetype=access_* action = "purchase" OR "addtocart" | timechart count(action) by productId useother=f usenull=f limit=16}}
 ```
-![screenshot of a data table or a graph or both](image.png?raw=true) 
-{{write-an-one-sentence-caption}}
+[Imgur](http://i.imgur.com/7gY7AHb.png)
+{{This shows products that are added to the cart and actually pruchased, which can show us broad interest in a product}}
 
 ## Rationale 2
 
