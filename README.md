@@ -19,22 +19,11 @@ sourcetype=access_* status=200 action=* | stats count(eval(action="view")) AS "V
 The graph shows the ratio between purchases and views, and shows that the product 
 `CU-PG-G06` (Curling 2014) has the least purchases per view.
 
-## Rationale 2
-
-{{one more, use-the-same-template-structure-as-before}}
-
-## Rationale 3
-
-{{at least three, use-the-same-template-structure-as-before}}
-
-## Rationale N
-
-{{more if desired, use-the-same-template-structure-as-before}}
 
 # Loyalty program
 
 ## Description
-{{High-Buyers: We find our highest-buying customers and offer a discount with our product with the least purchases per view}}
+High-Buyers: We find our highest-buying customers and offer a discount with our product with the least purchases per view
 
 ## Rationale 1
 
@@ -42,16 +31,5 @@ The graph shows the ratio between purchases and views, and shows that the produc
 sourcetype=access_* | timechart count(eval(action="purchase")) As "Purchases" by clientip useother=f
 ```
 ![screenshot of a data table or a graph or both](image.png?raw=true) 
-{{Find the highest buying customers}}
+Find the highest buying customers
 
-## Rationale 2
-
-{{one more, use-the-same-template-structure-as-before}}
-
-## Rationale 3
-
-{{at least three, use-the-same-template-structure-as-before}}
-
-## Rationale N
-
-{{more if desired, use-the-same-template-structure-as-before}}
