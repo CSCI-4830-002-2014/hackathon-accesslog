@@ -20,36 +20,27 @@ Some of the data point that we might pay attention to are:
 ```
 {{sourcetype=access_* action = "purchase" OR "addtocart" | timechart count(action) by productId useother=f usenull=f limit=16}}
 ```
-[Imgur](http://i.imgur.com/7gY7AHb.png)
-{{This shows products that are added to the cart and actually pruchased, which can show us broad interest in a product}}
+![Rationale 1](http://i.imgur.com/7gY7AHb.png)
+This shows products that are added to the cart and actually pruchased, which can show us broad interest in a product
 
 ## Rationale 2
 
 ```
 sourcetype=access_* productId=* action="purchase" | timechart count by categoryId limit=16 useother=false
 ```
-Strategy games are wildly popular in our stores, let's focus more resources on that.
-
 ![screenshot of a data table or a graph or both](https://www.dropbox.com/s/s1jjwbsvue5u4fs/Screenshot%202014-09-08%2018.20.03.png?dl=1) 
-{{write-an-one-sentence-caption}}
+Strategy games are wildly popular in our stores, let's focus more resources on that.
 
 ## Rationale 3
 
 ```
 sourcetype=access_* categoryId=STRATEGY | timechart count by productId usenull=f
 ```
-[Imgur](http://i.imgur.com/qEG7bye.png)
-{{The graph clearly indicates that out of the puppies vs zombies game is typically the least popular of all the strategy games offered.}}
+![Rationale 3 ](http://i.imgur.com/qEG7bye.png)
+The graph clearly indicates that out of the puppies vs zombies game is typically the least popular of all the strategy games offered.
+
 
 ## Rationale 4
-
-```
-{{splunk query producing the table or graph below}}
-```
-![screenshot of a data table or a graph or both](image.png?raw=true) 
-{{write-an-one-sentence-caption}}
-
-## Rationale 5
 
 ```
 sourcetype=access_* | top productId by date_wday limit=1
