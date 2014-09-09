@@ -22,8 +22,17 @@ One can see that Resistance Suit of Provolone suffers from a midweek slump.
 
 ## Rationale 2
 
-{{one more, use-the-same-template-structure-as-before}}
+We wanted to further examine Resistance Suit of Provolone to see if it was the proper game to run a promotion for. We wanted compare top products removed from cart to top products purchased. 
+```
+sourcetype=access_* productId cart.do action=remove | table clientip, action, productId, productName, date_month, date_mday, date_wday | top productName
 
+and 
+
+sourcetype=access_* productId cart.do action=purchase | table clientip, action, productId, productName, date_month, date_mday, date_wday | top productName
+```
+![screenshot of a data table or a graph or both](Hack2.png?raw=true)
+![screenshot of a data table or a graph or both](Hack3.png?raw=true)
+We compared these charts to verify that the game we're analyzing was the correct one.
 ## Rationale 3
 
 {{at least three, use-the-same-template-structure-as-before}}
