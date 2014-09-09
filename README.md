@@ -13,7 +13,7 @@ We decided to target the product with the lowest purchase to view ratio for our 
 
 ## Rationale 1
 We decided to target the product with the lowest purchase to view ratio, the two lowest values were NULL, with Curling 2014 being the next one up the list. 
-
+```
 {{sourcetype=access_* action = "purchase" OR action = "view" status="200" | stats count(eval(action="view")) AS Views , count(eval(action="purchase")) AS Purchases by productId | eval Ratio=Purchases/Views}}
 ```
 ![screenshot of a data table or a graph or both](http://i.imgur.com/rLf27Z9.png) 
@@ -23,7 +23,7 @@ We decided to target the product with the lowest purchase to view ratio, the two
 
 Why?
 Curling 2014 seemed like game we were loosing the most visitors on, with interested viewers but a failure to follow through with the purchase. By promoting Curling 2014 we are hoping to get a ratio closer to that enjoyed by our most successful product
-
+```
 {{sourcetype=access_* action = "purchase" OR action = "view" status="200" | stats count(eval(action="view")) AS Views , count(eval(action="purchase")) AS Purchases by productId | eval Ratio=Purchases/Views}}
 ```
 ![screenshot of a data table or a graph or both](http://i.imgur.com/Y5GHhJy.png) 
@@ -32,7 +32,7 @@ Curling 2014 seemed like game we were loosing the most visitors on, with interes
 ## Rationale 3
 When?
 Across all of our products, the most purchases happen on the weekend. Therefor to maximize our revenue we decided to run the promotion on Saturday and Sunday.
-
+```
 {{sourcetype=access_* action=purchase | timechart span=day count}}
 ```
 ![screenshot of a data table or a graph or both](http://i.imgur.com/hDsyc7L.png) 
