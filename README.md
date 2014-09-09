@@ -3,6 +3,7 @@
 * [Ryan Roden](www.github.com/rodenr)
 * [Chris Wittenberg](https://github.com/cwitty1919t)
 * [Michael Fyk](https://github.com/thefyk)
+* [Niklas Fejes](www.github.com/nfejes)
 
 # Promotional campaign
 
@@ -12,10 +13,11 @@ The goal of this promotional campaign is to target the product with the lowest p
 ## Rationale 1
 
 ```
-{{splunk query producing the table or graph below}}
+sourcetype=access_* status=200 action=* | stats count(eval(action="view")) AS "Views", count(eval(action="purchase")) AS "Purchases" by productId | eval Ratio=(Purchases/Views) | sort -Ratio
 ```
-![screenshot of a data table or a graph or both](image.png?raw=true) 
-{{write-an-one-sentence-caption}}
+![rationale 1](rationale1.png?raw=true) 
+The graph shows the ratio between purchases and views, and shows that the product 
+`CU-PG-G06` (Curling 2014) has the least purchases per view.
 
 ## Rationale 2
 

@@ -4,26 +4,26 @@
 <<<<<<< HEAD
 * [Chris Wittenberg](https://github.com/cwitty1919t)
 * [Michael Fyk](https://github.com/thefyk)
-
 =======
-* [Chris Wittenberg](https://github.com/cwitty1919)
+* [name-of-a-team-member](URL to this member's github account)
+* [Niklas Fejes](www.github.com/nfejes)
 * [name-of-a-team-member](URL to this member's github account)
 * [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
->>>>>>> 2c0b07b25d65a909b912990cfc6fd8da774613b1
+>>>>>>> 329e1acd6ff2f657457051a5b75a835588c22681
 
 # Promotional campaign
 
 ## Description
-{{The goal of this promotional campaign is to target the product with the lowest purchases per view and offer a discount in order to drive sales.}}
+The goal of this promotional campaign is to target the product with the lowest purchases per view and offer a discount in order to drive sales.
 
 ## Rationale 1
 
 ```
-{{splunk query producing the table or graph below}}
+sourcetype=access_* status=200 action=* | stats count(eval(action="view")) AS "Views", count(eval(action="purchase")) AS "Purchases" by productId | eval Ratio=(Purchases/Views) | sort -Ratio
 ```
-![screenshot of a data table or a graph or both](image.png?raw=true) 
-{{write-an-one-sentence-caption}}
+![rationale 1](rationale1.png?raw=true) 
+The graph shows the ratio between purchases and views, and shows that the product 
+`CU-PG-G06` (Curling 2014) has the least purchases per view.
 
 ## Rationale 2
 
