@@ -2,7 +2,7 @@
 
 * [Ryan Roden](www.github.com/rodenr)
 * [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
+* [Niklas Fejes](www.github.com/nfejes)
 * [name-of-a-team-member](URL to this member's github account)
 * [name-of-a-team-member](URL to this member's github account)
 
