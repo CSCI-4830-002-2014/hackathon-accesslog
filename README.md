@@ -1,7 +1,7 @@
 # Team Members
 
 * [Ryan Roden](www.github.com/rodenr)
-* [name-of-a-team-member](URL to this member's github account)
+* [Chris Wittenberg](https://github.com/cwitty1919t)
 * [name-of-a-team-member](URL to this member's github account)
 * [name-of-a-team-member](URL to this member's github account)
 * [name-of-a-team-member](URL to this member's github account)
