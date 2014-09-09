@@ -9,14 +9,14 @@
 # Promotional campaign
 
 ## Description
-Our promotional campagin will be based on graphing different actions over time for different products. We can take the HTTP requests for the different products and judge customer interest. 
+Our promotional campagin will be based on graphing different actions over time for different products. We can take the HTTP requests for the different products and judge customer interest.
 
-Some of the data point that we might pay attention to are: 
+Some of the data point that we might pay attention to are:
 
 1. Products that me might be gaining in popularity, but are still relatively unpopular.
-2. Which days of the week are the best in terms of sales. 
-3. Which types of games are most purchased. 
-4. Which games are least popular. 
+2. Which days of the week are the best in terms of sales.
+3. Which types of games are most purchased.
+4. Which games are least popular.
 
 ## Rationale 1
 
@@ -31,7 +31,7 @@ This shows products that are added to the cart and actually pruchased, which can
 ```
 sourcetype=access_* productId=* action="purchase" | timechart count by categoryId limit=16 useother=false
 ```
-![screenshot of a data table or a graph or both](https://www.dropbox.com/s/s1jjwbsvue5u4fs/Screenshot%202014-09-08%2018.20.03.png?dl=1) 
+![screenshot of a data table or a graph or both](https://www.dropbox.com/s/s1jjwbsvue5u4fs/Screenshot%202014-09-08%2018.20.03.png?dl=1)
 Strategy games are wildly popular in our stores, let's focus more resources on that.
 
 ## Rationale 3
@@ -48,7 +48,7 @@ The graph clearly indicates that out of the puppies vs zombies game is typically
 ```
 sourcetype=access_* | top productId by date_wday limit=1
 ```
-![Rationale 5](http://imgur.com/aNiNyLz.png) 
+![Rationale 5](http://imgur.com/aNiNyLz.png)
 This shows the top product of each given day of the week.
 
 # Loyalty program
@@ -61,12 +61,16 @@ This shows the top product of each given day of the week.
 ```
 {{splunk query producing the table or graph below}}
 ```
-![screenshot of a data table or a graph or both](image.png?raw=true) 
+![screenshot of a data table or a graph or both](image.png?raw=true)
 {{write-an-one-sentence-caption}}
 
 ## Rationale 2
 
-{{one more, use-the-same-template-structure-as-before}}
+```
+sourcetype=access_* action=purchase categoryId=strategy | top clientip
+```
+![Rationale 2](http://i.imgur.com/OdE7P0e.png)
+We have two dedicated customers to strategy games, but after the first two customers, the number of purchases is cut by nearly one third. We should create a loyalty program for users who buy all strategy games, thus increasing our damaged sales for "Puppies vs. Zombies".
 
 ## Rationale 3
 
@@ -81,5 +85,5 @@ This shows the top product of each given day of the week.
 ```
 sourcetype=access_* | top clientip by date_wday limit=1
 ```
-![Rationale 5](http://imgur.com/pX4XVHk.png) 
+![Rationale 5](http://imgur.com/pX4XVHk.png)
 This shows the top IP addresses of each given day of the week.
