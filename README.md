@@ -2,8 +2,7 @@
 
 * [Ryan Roden](www.github.com/rodenr)
 * [Chris Wittenberg](https://github.com/cwitty1919t)
-* [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
+* [Michael Fyk](https://github.com/thefyk)
 
 
 # Promotional campaign
