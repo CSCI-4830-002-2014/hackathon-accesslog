@@ -14,7 +14,7 @@ Our promotional campagin will be based on graphing different actions over time f
 Some of the data point that we might pay attention to are: 
 
 1. Products that me might be gaining in popularity, but are still relatively unpopular.
-2. 
+
 ## Rationale 1
 
 ```
