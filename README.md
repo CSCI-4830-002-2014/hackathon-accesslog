@@ -20,12 +20,19 @@ Our promotional campagin will be based on graphing different actions over time f
 
 ## Rationale 2
 
-TEST
-{{one more, use-the-same-template-structure-as-before}}
+```
+{{splunk query producing the table or graph below}}
+```
+![screenshot of a data table or a graph or both](image.png?raw=true) 
+{{write-an-one-sentence-caption}}
 
 ## Rationale 3
 
-{{at least three, use-the-same-template-structure-as-before}}
+```
+{{splunk query producing the table or graph below}}
+```
+![screenshot of a data table or a graph or both](image.png?raw=true) 
+{{write-an-one-sentence-caption}}
 
 ## Rationale N
 
