@@ -70,7 +70,15 @@ This shows the top product of each given day of the week.
 
 ## Rationale 3
 
-{{at least three, use-the-same-template-structure-as-before}}
+```
+sourcetype=access_* action=purchase clientip=128.241.220.82 | stats count(action) by categoryId
+```
+
+Our top customer has bought almost 40 games, yet rarely buys accessories. Since he is such a
+big gamer, he most likely associates with other gamers. For being a loyal customer, we will
+send him some swag (t-shirt, hat, etc) which he can wear, and as a result we recieve brand recogition.
+
+![image](https://www.dropbox.com/s/b9bm353n6dlzffq/Screenshot%202014-09-08%2018.51.30.png?dl=1)
 
 ## Rationale 4
 
