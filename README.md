@@ -28,7 +28,9 @@ Some of the data point that we might pay attention to are:
 ```
 {{splunk query producing the table or graph below}}
 ```
-![screenshot of a data table or a graph or both](image.png?raw=true) 
+Strategy games are wildly popular in our stores, let's focus more resources on that.
+
+![screenshot of a data table or a graph or both](https://www.dropbox.com/s/s1jjwbsvue5u4fs/Screenshot%202014-09-08%2018.20.03.png?dl=1) 
 {{write-an-one-sentence-caption}}
 
 ## Rationale 3
