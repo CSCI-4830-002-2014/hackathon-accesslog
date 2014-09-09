@@ -10,10 +10,15 @@
 
 ## Description
 Our promotional campagin will be based on graphing different actions over time for different products. We can take the HTTP requests for the different products and judge customer interest. 
+
+Some of the data point that we might pay attention to are: 
+
+1. Products that me might be gaining in popularity, but are still relatively unpopular.
+2. 
 ## Rationale 1
 
 ```
-{{splunk query producing the table or graph below}}
+{{sourcetype=access_* action = "purchase" OR "addtocart" | timechart count(action) by productId useother=f usenull=f limit=16}}
 ```
 ![screenshot of a data table or a graph or both](image.png?raw=true) 
 {{write-an-one-sentence-caption}}
