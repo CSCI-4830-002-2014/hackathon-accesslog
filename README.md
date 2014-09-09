@@ -30,6 +30,6 @@ High-Buyers: We find our highest-buying customers and offer a discount with our 
 ```
 sourcetype=access_* | timechart count(eval(action="purchase")) As "Purchases" by clientip useother=f
 ```
-![screenshot of a data table or a graph or both](image.png?raw=true) 
+![screenshot of a data table or a graph or both](lrationale1.png?raw=true) 
 Find the highest buying customers
 
