@@ -9,8 +9,7 @@
 # Promotional campaign
 
 ## Description
-{{an-one-paragraph-description}}
-
+Our promotional campagin will be based on graphing different actions over time for different products. We can take the HTTP requests for the different products and judge customer interest. 
 ## Rationale 1
 
 ```
