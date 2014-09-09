@@ -3,7 +3,7 @@
 * [Peyman Mortazavi](https://github.com/peymanmortazavi)
 * [Dawson Botsford](https://github.com/dawsonbotsford)
 * [Brian Newsom](https://github.com/briannewsom)
-* [Andrian Chen](https://github.com/adrian-chen)
+* [Adrian Chen](https://github.com/adrian-chen)
 * [Michael Aaron](https://github.com/develra)
 
 # Promotional campaign
@@ -17,7 +17,7 @@ We decided to target the product with the lowest purchase to view ratio, the two
 sourcetype=access_* action = "purchase" OR action = "view" status="200" | stats count(eval(action="view")) AS Views , count(eval(action="purchase")) AS Purchases by productId | eval Ratio=Purchases/Views
 ```
 ![screenshot of a data table or a graph or both](http://i.imgur.com/rLf27Z9.png) 
-See a the ratio in the left-most column for our product choice
+See a the ratio in the right-most column for our product choice
 
 ## Rationale 2
 
@@ -31,7 +31,7 @@ The higher the ratio, the more common a viewing vistor follows through with a pu
 
 ## Rationale 3
 When?
-Across all of our products, the most purchases happen on the weekend. Therefor to maximize our revenue we decided to run the promotion on Saturday and Sunday.
+Across all of our products, the most purchases happen on the weekend. Therefore to maximize our revenue we decided to run the promotion on Saturday and Sunday.
 ```
 sourcetype=access_* action=purchase | timechart span=day count
 ```
