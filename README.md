@@ -14,6 +14,9 @@ Our promotional campagin will be based on graphing different actions over time f
 Some of the data point that we might pay attention to are: 
 
 1. Products that me might be gaining in popularity, but are still relatively unpopular.
+2. Which days of the week are the best in terms of sales. 
+3. Which types of games are most purchased. 
+4. Which games are least popular. 
 
 ## Rationale 1
 
@@ -47,6 +50,7 @@ sourcetype=access_* | top productId by date_wday limit=1
 ```
 ![Rationale 5](http://imgur.com/aNiNyLz.png) 
 This shows the top product of each given day of the week.
+
 # Loyalty program
 
 ## Description
