@@ -72,6 +72,14 @@ This shows the top product of each given day of the week.
 
 {{at least three, use-the-same-template-structure-as-before}}
 
-## Rationale N
+## Rationale 4
 
 {{more if desired, use-the-same-template-structure-as-before}}
+
+## Rationale 5
+
+```
+sourcetype=access_* | top clientip by date_wday limit=1
+```
+![Rationale 5](http://imgur.com/pX4XVHk.png) 
+This shows the top IP addresses of each given day of the week.
