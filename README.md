@@ -3,7 +3,7 @@
 * [Ryan Roden](www.github.com/rodenr)
 * [name-of-a-team-member](URL to this member's github account)
 * [name-of-a-team-member](URL to this member's github account)
-* [name-of-a-team-member](URL to this member's github account)
+* [Michael Fyk](https://github.com/thefyk)
 * [name-of-a-team-member](URL to this member's github account)
 
 # Promotional campaign
